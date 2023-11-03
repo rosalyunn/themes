@@ -1,0 +1,334 @@
+/*comfy variables*/
+:root {
+  --user-buttons-spacing: -4px;
+  --user-buttons-color: #d5adf0;
+
+  --avatar-radius: 5px;
+  --status-radius: 3px;
+  --server-radius: 8px;
+
+  --mention-color: #f04747;
+  --unread-color: #7289da;
+  --mention-color-bar: #c66262;
+  --mention-color-background: #c662621f;
+  --mention-color-hover: #c6626226;
+  --chat-buttons: #d5adf0;
+
+  --spotify-color: #1edc62;
+  --listening: #1db653;
+
+  --online: #43b581;
+  --iddle: #faa61a;
+  --dnd: #f04747;
+  --offline: #747f8d;
+  --streaming: #593695;
+
+  --playing: #0000005e;
+
+  --role-circle: 5px;
+
+  --discord-logo: none;
+}
+.theme-dark {
+  --background-primary: #2B253D;
+  --background-secondary: #2B253D;
+  --background-secondary-alt: #2B253D;
+  --background-tertiary: #131020;
+  --background-mobile-primary: #23283d;
+  --background-mobile-secondary: #1e2233;
+  --channeltextarea-background: #241e33;
+  --background-accent: #5e4675;
+  --background-message-hover: #413A64;
+  --background-modifier-hover: #29233a;
+  --background-modifier-active: #29233a;
+  --background-modifier-selected: #29233a;
+  --deprecated-card-bg: #191A1E;
+  --background-floating: #29233a;
+  --deprecated-quickswitcher-input-background: #101320;
+  --elevation-low: none;
+  --scrollbar-auto-thumb: #241e33;
+  --scrollbar-auto-track: #29233a;
+  --scrollbar-thin-thumb: #29233a;
+  --activity-card-background: #101320;
+  --input-background: #272136;
+}
+
+
+/* oneko */
+[class^=channelTextArea_]:before {
+    background-image: url(https://raw.githubusercontent.com/Lylythii/OnekoStyles/main/onekoslvt.png) !important;
+    position: absolute;
+    top: 38px;
+    left: -42px;
+}
+
+
+
+
+
+/* ------- repositions + resizes ------- */
+
+/* small + right justify message bars */
+.barBase__4e0ba {
+  width: fit-content;
+  margin-left: auto;
+}
+
+
+/* larger gif, sticker, and emote drawer */
+.drawerSizingWrapper__30274{
+  width: 900px!important;
+  position: absolute;
+  top: -180px;
+  height: 682px!important;
+  background-color: #2a233aa6;
+  border-radius: 7px;
+}
+
+/* fix user control panel avatar */
+#app-mount > div.appAsidePanelWrapper__714a6 > div.notAppAsidePanel__9d124 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > div.sidebar_ded4b5 > section > div.container_ca50b9 > div.avatarWrapper_ba5175.withTagAsButton_cc125f{
+position: absolute!important;
+left: 240px!important;
+}
+#app-mount > div.appAsidePanelWrapper__714a6 > div.notAppAsidePanel__9d124 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > div.sidebar_ded4b5 > section > div.container_ca50b9 > div.avatarWrapper_ba5175.withTagAsButton_cc125f > div.wrapper_edb6e0.avatar_f8541f{
+position: absolute!important;
+left: 0px!important;
+bottom: 0px!important;
+}
+
+/* move messages right */
+.message__80c10 {
+    margin-left: 16px;
+    border-radius: 5px;
+}
+
+/* change pip size */
+.pictureInPictureVideo_f1081d{
+     height: 327px!important; 
+     width: 582px!important;
+}
+
+/* compact membercount */
+#vc-membercount {
+    margin-top: 0.5px !important;
+    margin-bottom: -15px !important;
+}
+
+/* smaller channel list */
+.sidebar_ded4b5 {
+  width: 220px !important;
+}
+
+/* mention bar */
+.mentioned__58017:before {
+  width: 4px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+/* centered profile elements */
+.usernameSection__53868,
+.container-3g15px {
+    text-align: center!important;
+}
+.customStatus__3aa7f {
+    display: flex!important;
+}
+.nameTag-35jqbZ,
+.customStatus__3aa7f,
+.tabBar-2hXqzU {
+    justify-content: center!important;
+}
+
+/* less round servers */
+.guild-1EfMGQ .guildInner-3DSoA4, #app-mount foreignObject {
+  border-radius: 5px !important;
+}
+
+/* cleanup activity box */a
+.activityUserPopoutV2__32328, .activity__20c1e::before{
+  border-radius: 5px!important;
+  margin: 0px!important;
+}
+.headerText__7d203{
+  display: none;
+}
+.bodyNormal_c70dfd{
+  position: relative;
+  bottom: 4px;
+}
+
+
+
+/* ------- element removals ------- */
+
+/* remove unread orb */
+.unread__48cf4, .unreadRelevant__44f9e{
+  display: none;
+}
+
+/*remove invite button next to channel name(removes settings icon as well if you have manage channels)*/
+.actionIcon_d679b5 {
+    display: none;
+}
+
+/* remove new member leaf icon */
+[class^="newMemberBadge"] { display: none }
+
+/* remove comfy activity wave */
+.activity__20c1e::after, .heading-deprecated-12-semibold__785e8::before{
+  display: none;
+}
+
+/* remove dividers */
+.sectionDivider__68d2a{
+  display: none;
+}
+
+/* remove window control buttons */
+.winButton__88672{
+  display: none;
+}
+
+/* context menu cleanup */
+#user-context-message{
+  display: none;
+}
+
+/* context menu cleanup */
+#user-context-mention, #user-context-message-user, #user-context-view-avatar, #user-context-call, #user-context-note, #user-context-apps, #user-context-add-friend, #user-context-invite-to-server, #user-context-roles, #user-context-block, #user-context-user-profile, #message-add-reaction-0, #message-add-reaction-1, #message-pin, #message-reply, #message-copy-text, #message-apps, #message-mark-unread, #message-tts, .wrapper__2e846{
+  display: none;
+}
+
+
+/* ------- animations ------- */
+
+/* animated message send(self messages animate twice) */
+@keyframes slide-up {
+    0% {
+        opacity: 0;
+        transform: translateY(12px) translateX(12px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px) translateX(0px);
+    }
+}
+.message__80c10 {
+  animation: slide-up 0.3s ease;
+}
+
+/* user center button animation */
+.button__4f306 .contents_fb6220 {
+    transform: rotate(0deg);
+    transition: transform 0.1s;
+}
+.button__4f306:hover .contents_fb6220 {
+    transform: rotate(8deg);
+}
+.button__4f306:hover .contents_fb6220 svg {
+    height: 23px !important;
+    width: 23px !important;
+}
+.button__4f306 .contents_fb6220 svg {
+    transition: width 0.1s, height 0.1s;
+}
+
+
+
+
+
+/* ------- misc snippets ------- */
+
+/* compact blocked messages */
+.scrollerInner__059a5>.groupStart__56db5:not(.backgroundFlash_e5b9ad)>.wrapper__09ecc {padding: 0 0 0 16px}
+.scrollerInner__059a5>.groupStart__56db5:not(.backgroundFlash_e5b9ad)>.wrapper__09ecc.compact__54ecc {padding: 0 0 0 108px}
+.scrollerInner__059a5>.groupStart__56db5:not(.backgroundFlash_e5b9ad) {margin: 0}
+.scrollerInner__059a5>.groupStart__56db5.expanded_be53d7:not(.backgroundFlash_e5b9ad) {background-color: var(--info-danger-background)}
+.scrollerInner__059a5>.groupStart__56db5:not(.backgroundFlash_e5b9ad) .messageListItem__6a4fb .groupStart__56db5,
+.scrollerInner__059a5>.groupStart__56db5:not(.backgroundFlash_e5b9ad, .expanded_be53d7)+.messageListItem__6a4fb .groupStart__56db5 {margin-top: 0}
+.scrollerInner__059a5>.groupStart__56db5:not(.backgroundFlash_e5b9ad) .messageListItem__6a4fb {opacity: .5}
+.blockedSystemMessage_e58a4c .iconContainer_dfc268 {display: none}
+.blockedMessageText__57d64 {position: relative;font-size: 12px;line-height: 16px;color: var(--interactive-muted)}
+.blockedMessageText__57d64:hover {text-decoration: underline}
+.blockedMessageText__57d64:hover,.groupStart__56db5.expanded_be53d7 .blockedMessageText__57d64 {color: var(--info-danger-foreground)}
+.blockedAction__27053 {position: absolute;inset: 0;width: 100%;opacity: 0}
+.blockedMessageText__57d64:after {content: '';position: absolute;right: 0;height: 100%;width: 14px;pointer-events: none;background-color: currentColor;
+-webkit-mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 18 24" fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="M15 3.999V2H9V3.999H3V5.999H21V3.999H15Z M5 6.99902V18.999C5 20.101 5.897 20.999 7 20.999H17C18.103 20.999 19 20.101 19 18.999V6.99902H5ZM11 17H9V11H11V17ZM15 17H13V11H15V17Z" ></path></svg>') center/contain no-repeat
+}
+
+/* twemoji everywhere */
+@font-face {
+    font-family: "TwemojiColor";
+    src: url("https://vendicated.github.io/random-files/Twemoji.Mozilla.ttf");
+}
+:root {
+    --font-primary: "gg sans", sans-serif, "TwemojiColor";
+}
+
+/* trans flag gif */
+.childWrapper__01b9c{
+  background: none!important;
+  content: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Forig00.deviantart.net%2F35a5%2Ff%2F2018%2F156%2Fa%2Fe%2Ftransgender_pride_flag__f2u__by_avakados-dcdjsv9.gif&f=1&nofb=1&ipt=95f0bdc42922063ecc38369bd8ce5d6ec889e63284c8fc2c3203d15520b670c2&ipo=images)!important;
+}
+
+/* context menu border */
+.menu_dc52c6 { 
+    border: 2px solid #61466b!important;
+}
+
+/* shiggy */
+body:before {
+  position: fixed;
+  bottom: 0; right: 0;
+  width: 31px; height: 31px;
+  margin: 10px;
+  z-index: 999;
+  content: url(https://cdn.discordapp.com/emojis/1024751291504791654.gif?size=32&quality=lossless);
+}
+
+/* fix new member list */
+.scroller__6e4c4{
+background-color: #2B253D;
+}
+
+/* simple edited icon */
+.edited_b20dd9 {color: rgba(0,0,0,0)}
+.edited_b20dd9::before {
+        content: " ✎";
+        color: var(--text-muted);
+        font-size: 0.625rem;
+        font-weight: 400;
+        line-height: 1;
+}
+
+/*Minifiedmemberlist*/
+:root{
+    --hidden-user-width: 60px;--user-width: 240px;--transition-time: 0.08s
+}
+.container_b2ce9c,
+.membersWrap__90226{
+    transition-duration:var(--transition-time);
+    justify-content:unset;
+    min-width:unset;
+    width:var(--hidden-user-width)
+}
+.membersGroup__85843{
+    height:0px;
+    transition-duration:var(--transition-time);
+    padding-top:0px
+}
+.container_b2ce9c:hover 
+.membersGroup__85843,
+.membersWrap__90226:hover 
+.membersGroup__85843{
+    height:40px;
+    padding-top:24px
+}
+.container_b2ce9c:hover,
+.membersWrap__90226:hover{
+    width:var(--user-width)
+}
+.profilePanel-2PWEok{
+    transition-duration:var(--transition-time)
+}
