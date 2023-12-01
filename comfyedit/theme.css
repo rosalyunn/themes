@@ -200,12 +200,7 @@ bottom: 0px!important;
 }
 
 /* context menu cleanup */
-#user-context-message{
-  display: none;
-}
-
-/* context menu cleanup */
-#user-context-mention, #user-context-message-user, #user-context-view-avatar, #user-context-call, #user-context-note, #user-context-apps, #user-context-add-friend, #user-context-invite-to-server, #user-context-roles, #user-context-block, #user-context-user-profile, #message-add-reaction-0, #message-add-reaction-1, #message-pin, #message-reply, #message-copy-text, #message-apps, #message-mark-unread, #message-tts, .wrapper__2e846{
+#user-context-mention, #user-context-message-user, #user-context-call, #user-context-note, #user-context-apps, #user-context-add-friend, #user-context-invite-to-server, #user-context-roles, #message-add-reaction-0, #message-add-reaction-1, #message-pin, #message-reply, #message-copy-text, #message-apps, #message-mark-unread, #message-tts, .wrapper__2e846{
   display: none;
 }
 
