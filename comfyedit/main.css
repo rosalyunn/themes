@@ -134,15 +134,15 @@
   background-color: var(--brand-experiment);
   border-radius: inherit;
 }
-:root .reaction-2A2y9y {
+:root .reaction_b90ab0 {
   border: none;
   border-radius: 5px;
   background-color: var(--background-modifier-active);
 }
-:root .reaction-2A2y9y.reactionMe-3I9gFK {
+:root .reaction_b90ab0.reactionMe_bf6909 {
   position: relative;
 }
-:root .reaction-2A2y9y.reactionMe-3I9gFK::after {
+:root .reaction_b90ab0.reactionMe_bf6909::after {
   content: "";
   opacity: 0.4;
   top: 0;
@@ -2258,7 +2258,7 @@
 :root .container-3wLKDe {
   background-color: var(--background-primary);
 }
-:root .container-3wLKDe .mainCard-3KBsBI {
+:root .container-3wLKDe .mainCard__8a660 {
   background-color: var(--background-secondary);
 }
 :root .bd-sidebar-header {
