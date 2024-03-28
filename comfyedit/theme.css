@@ -172,7 +172,7 @@ bottom: 0px!important;
 /* ------- element removals ------- */
 
 /* remove unread orb */
-.unread__48cf4, .unreadRelevant__44f9e{
+.unread__48cf4, .unreadImportant_c775b3{
   display: none;
 }
 
