@@ -155,23 +155,6 @@
     display: none;
 }
 
-/* remove nitro/monetization from many places */
-.link__3a950[href="/store"],
-.button__581d0[aria-label="Send a gift"],
-.premiumTab_ad0913, .item__48dda[aria-label="Subscriptions"],
-.item__48dda[aria-label="Billing"],
-.item__48dda[data-tab-id="Nitro Server Boost"],
-.item__48dda[aria-label="Merch"],
-.item__183e8[id="guild-header-popout-premium-subscribe"],
-.anchor_c8ddc0[href="https://discord.com/settings/premium"],
-.link__3a950[href="/shop"],
-.nitroWheel__9fc3e,
-.premiumIcon__8d690,
-.container__686c4,
-.flowerStarContainer__00f61 {
-    display: none;
-}
-
 /* Custom Emoji Button */
 .sprite__294b3.spriteColored__9a869 {
     background-image: url(https://cdn.discordapp.com/emojis/1024751291504791654.gif?size=128&quality=lossless);
