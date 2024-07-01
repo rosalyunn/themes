@@ -315,10 +315,10 @@
 :root{
 --home-icon-url: url('https://i.imgur.com/TrlByk8.gif');
 }
-[class*=childWrapper] > svg:not([class*=favoriteIcon]){
+[class*=childWrapper_f90abb] > svg:not([class*=favoriteIcon]){
   display: none;
 }
-[class*=childWrapper]:has(svg:not([class*=favoriteIcon]))::before {
+[class*=childWrapper_f90abb]:has(svg:not([class*=favoriteIcon]))::before {
     content: '';
     display: block;
     position: absolute;
