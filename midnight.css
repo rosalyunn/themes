@@ -346,7 +346,6 @@
 }
 :root .wrapper_c51b4e,
 :root .avatar_f9f2ca,
-
 :root .profile_d6fbe8 .avatarUploaderInner-yEhTv5,
 :root .voiceAvatar_a5cd29,
 :root .avatar_ec86aa,
@@ -362,7 +361,8 @@
 :root .avatar-2EVtgZ,
 :root .avatarContainerMasked_c47562,
 :root .appAvatar-2_lufo,
-:root .embedAuthorIcon_ad0b71 {
+:root .embedAuthorIcon_ad0b71,
+:root .wrapper_c51b4e foreignObject{
   border-radius: var(--roundness-avatar);
 }
 :root .wrapper_c5f96a foreignObject {
