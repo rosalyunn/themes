@@ -345,7 +345,8 @@
   -webkit-mask: none;
 }
 :root .wrapper_c51b4e,
-:root .avatar_c51b4e,
+:root .avatar_f9f2ca,
+
 :root .profile_d6fbe8 .avatarUploaderInner-yEhTv5,
 :root .voiceAvatar_a5cd29,
 :root .avatar_ec86aa,
@@ -387,7 +388,6 @@
 :root .wrapper_c5f96a:hover foreignObject {
   border-radius: calc(var(--roundness-server) - 3px);
 }
-
 
 :root .userPopoutOuter_c69a7b {
   max-height: unset !important;
