@@ -330,6 +330,17 @@
     transform: none;
 }
 
+/* Match Status Bubble color with Profile Primary Color */
+.custom-profile-theme [class^=statusBubble_] {
+  background-color: var(--profile-gradient-primary-color);
+}
+.custom-profile-theme [class^=statusBubbleOuter_]:before {
+  background-color: var(--profile-gradient-primary-color);
+}
+.custom-profile-theme [class^=statusBubbleOuter_]:after {
+  background-color: var(--profile-gradient-primary-color);
+}
+
 /* squared server/avatars from: Comfy by Nyria */
 :root .wrapper_c51b4e .dots_ce0450 {
   overflow: visible;
@@ -338,8 +349,8 @@
   transform: translateY(2.5px);
 }
 :root .wrapper_c51b4e foreignObject,
-:root .callAvatarMask_a5cd29 foreignObject,
-:root .avatarContainer_c47562 foreignObject,
+:root .callAvatarMask_db83a2 foreignObject,
+:root .avatarContainer_d03bba foreignObject,
 :root .avatarMasked__0b3c8 {
   mask: none;
   -webkit-mask: none;
@@ -347,21 +358,21 @@
 :root .wrapper_c51b4e,
 :root .avatar_f9f2ca,
 :root .profile_d6fbe8 .avatarUploaderInner-yEhTv5,
-:root .voiceAvatar_a5cd29,
-:root .avatar_ec86aa,
-:root .border_a5cd29,
+:root .voiceAvatar_db83a2,
+:root .avatar_f9f2ca,
+:root .border_db83a2,
 :root .avatar_cdc675,
-:root .clickableAvatar_c47562,
-:root .emptyUser_c47562,
-:root .avatar_c47562,
-:root .wrapper_a5cd29.ringingIncoming_a5cd29::after,
-:root .wrapper_a5cd29.ringingOutgoing_a5cd29::after,
-:root .replyAvatar_ec86aa,
+:root .clickableAvatar_d03bba,
+:root .emptyUser_d03bba,
+:root .avatar_d03bba,
+:root .wrapper_db83a2.ringingIncoming_db83a2::after,
+:root .wrapper_db83a2.ringingOutgoing_db83a2::after,
+:root .replyAvatar_f9f2ca,
 :root .avatarSpeaking_c51b4e,
 :root .avatar-2EVtgZ,
-:root .avatarContainerMasked_c47562,
+:root .avatarContainerMasked_d03bba,
 :root .appAvatar-2_lufo,
-:root .embedAuthorIcon_ad0b71,
+:root .embedAuthorIcon_b0068a,
 :root .wrapper_c51b4e foreignObject{
   border-radius: var(--roundness-avatar);
 }
@@ -379,7 +390,7 @@
 :root .flexChild_bba380 .avatarUploaderInner_f0a9ff {
   border-radius: var(--roundness-server);
 }
-:root .iconInactive_f11207 {
+:root .iconInactive_a64689 {
   border-radius: calc(var(--roundness-server) - 4px);
 }
 :root .wrapper_c5f96a foreignObject {
@@ -388,6 +399,7 @@
 :root .wrapper_c5f96a:hover foreignObject {
   border-radius: calc(var(--roundness-server) - 3px);
 }
+
 
 :root .userPopoutOuter_c69a7b {
   max-height: unset !important;
