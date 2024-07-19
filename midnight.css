@@ -42,7 +42,7 @@
     src: url("https://vendicated.github.io/random-files/Twemoji.Mozilla.ttf");
 }
 :root {
-    --font-primary: "figtree", sans-serif, "TwemojiColor";
+    --font-primary: var(--font), sans-serif, "TwemojiColor";
 }
 
 /* collapsed member list new */
