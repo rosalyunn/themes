@@ -330,15 +330,16 @@
     transform: none;
 }
 
-/* Match Status Bubble color with Profile Primary Color */
-.custom-profile-theme [class^=statusBubble_] {
-  background-color: var(--profile-gradient-primary-color);
+/* Brighter Status Text for Custom Profiles */
+.custom-profile-theme [class^=statusBubble_] [class^=defaultColor_] {
+  color: var(--white-500);
 }
-.custom-profile-theme [class^=statusBubbleOuter_]:before {
-  background-color: var(--profile-gradient-primary-color);
-}
+
+/* Match Status Bubble Color with Profile Button Color for Custom Profiles */
+.custom-profile-theme [class^=statusBubble_],
+.custom-profile-theme [class^=statusBubbleOuter_]:before,
 .custom-profile-theme [class^=statusBubbleOuter_]:after {
-  background-color: var(--profile-gradient-primary-color);
+  background-color: var(--profile-gradient-button-color);
 }
 
 /* squared server/avatars from: Comfy by Nyria */
