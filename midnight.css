@@ -2,6 +2,8 @@
 /* IMPORTANT: make sure to enable dark mode in discord settings for the theme to apply properly!!! */
 
 @import url('https://refact0r.github.io/midnight-discord/midnight.css');
+@import url('https://allpurposem.at/disblock/DisblockOrigin.theme.css');
+
 
 
 /* new messages divider */
@@ -155,22 +157,6 @@
     display: none;
 }
 
-/* remove nitro/monetization from many places */
-.link_c91bad[href="/store"],
-.button_dd4f85[aria-label="Send a gift"],
-.premiumTab_c10c74, .item_a0[aria-label="Subscriptions"],
-.item_a0[aria-label="Billing"],
-.item_a0[data-tab-id="Nitro Server Boost"],
-.item_a0[aria-label="Merch"],
-.item_d90b3d[id="guild-header-popout-premium-subscribe"],
-.anchor_af404b[href="https://discord.com/settings/premium"],
-.link_c91bad[href="/shop"],
-.nitroWheel_abc655,
-.premiumIcon_f45ea6,
-.container_da1432,
-.flowerStarContainer_ff7d90 {
-    display: none;
-}
 
 /* Custom Emoji Button */
 .sprite_af14ca.spriteColored_af14ca {
