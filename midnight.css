@@ -110,9 +110,18 @@
     margin-left: 10px;
 }
 
+/* remove app launcher */
+.channelAppLauncher_df39bd{
+    display: none;
+}
 
 /* no voice indicator */
 [class^=bar__]:has([class^=voiceChannelsIcon__]) {
+    display: none;
+}
+
+/* remove app launcher */
+.channelAppLauncher_df39bd{
     display: none;
 }
 
