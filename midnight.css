@@ -67,7 +67,7 @@
     height: auto;
     max-height: 100vh;
     width: 65px;
-    transition: width 0.45s cubic-bezier( 0.31, 0.14, .58, 1 ), box-shadow 0.1s linear, -webkit-box-shadow 0.1s linear;
+    transition: width 0.4s ease-in-out, box-shadow 0.1s linear, -webkit-box-shadow 0.1s linear;
 }
 .chatContent_a7d72e:not(:last-child) {
     margin-right: 65px;
@@ -83,7 +83,7 @@
     width: 240px;
     -webkit-box-shadow: var(--elevation-high);
     box-shadow: var(--elevation-high);
-    transition: width 0.45s cubic-bezier( 0.31, 0.14, .58, 1 ), box-shadow 0.2s linear, -webkit-box-shadow 0.2s linear;
+    transition: width 0.4s ease-in-out, box-shadow 0.2s linear, -webkit-box-shadow 0.2s linear;
 }
 .membersGroup_cbd271 {
     transform: translateX(80px);
