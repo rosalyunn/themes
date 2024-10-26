@@ -80,7 +80,7 @@
     right: 0;
     width: unset;
     min-width: 65px;
-    height: 100%;
+    height: 42rem;
 }
 .membersWrap_cbd271:hover .members_cbd271 {
     width: 240px;
@@ -93,6 +93,9 @@
 }
 .members_cbd271:hover .membersGroup_cbd271 {
     transform: translateX(0px);
+}
+.actions_b11c5e{
+    margin-right: 2rem;
 }
 
 /* user panel area hover animation */
