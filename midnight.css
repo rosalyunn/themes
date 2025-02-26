@@ -358,6 +358,9 @@
 }
 
 /* squared server/avatars from: Comfy by Nyria */
+[id^="uid_"] circle {
+    display: none!important;
+}
 :root .wrapper__44b0c .dots__5ad89 {
   overflow: visible;
 }
