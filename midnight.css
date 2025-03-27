@@ -59,42 +59,6 @@
     --font-primary: var(--font), sans-serif, "TwemojiColor";
 }
 
-/* collapsed member list new */
-.members_c8ffbb {
-    height: auto;
-    max-height: 80vh;
-    top: 1vh;
-    width: 65px;
-    border-radius: 20px 20px 20px 20px;
-    transition: width 0.4s ease-in-out, box-shadow 0.1s linear;
-    box-shadow: 0px 0px 10px #120f1b;
-}
-.chatContent_f75fb0:not(:last-child) {
-    margin-right: 0px;
-}
-.membersWrap_c8ffbb {
-    position: absolute;
-    right: 0;
-    width: unset;
-    min-width: 65px;
-    height: 42rem;
-}
-.membersWrap_c8ffbb:hover .members_c8ffbb {
-    width: 240px;
-    box-shadow: 0px 0px 15px #120f1b;
-    transition: width 0.4s ease-in-out, box-shadow 0.2s linear;
-}
-.membersGroup_c8ffbb {
-    transform: translateX(90px);
-    transition: transform 0.55s ease;
-}
-.members_c8ffbb:hover .membersGroup_c8ffbb {
-    transform: translateX(0px);
-}
-.actions__841c8{
-    margin-right: 2rem;
-}
-
 /* user panel area hover animation */
 .avatarWrapper__37e49{
     transform: scale(1);
@@ -352,6 +316,76 @@
 .custom-profile-theme [class^=statusBubbleOuter_]:before,
 .custom-profile-theme [class^=statusBubbleOuter_]:after {
   background-color: var(--profile-gradient-button-color);
+}
+
+/* revert timestamps 237616896948699136 */
+span[class*="timestampInline_"] time::before {
+  content: attr(aria-label);
+  font-size: 12px;
+}
+
+span[class*="timestampInline_"] {
+  font-size: 0px !important;
+}
+
+/* user panel edit 490961337896402944 */
+[class*="panels"] [class*="avatarWrapper"] {
+  min-width: unset;
+}
+
+[class*="avatarWrapper__"] {
+  border-radius: 100% !important;
+  width: min-content;
+ 
+ &:hover {
+    background-color: transparent !important;
+ }
+ 
+ & > .avatar__37e49 {
+    width: 30px !important;
+    height: 40px;
+    margin-top: -1px;
+
+    & > svg {
+      width: 39px !important;
+    }  
+  }
+}
+
+/* folder radius in folder 586962558435590154 */
+[class*="closedFolderIconWrapper_"] > [class*="guildIcon_"],
+[data-list-item-id*="guildsnav_"] > [class*="icon_"] {
+    border-radius: 25% !important;
+}
+
+/* revert user panel position 683171006717755446 */
+.visual-refresh section.panels_c48ade {
+  margin-left: 84px;
+  width: calc(100% - var(--space-xs)*2 - 68px) !important;
+  .actionButtons_e131a9 button {
+    padding: 0;
+  }
+}
+nav.guilds_c48ade {
+  margin-bottom: 0 !important;
+}
+
+/* collapsed members 100090349376000000 */
+.visual-refresh [class^="container_"] [class^="membersWrap_"] {
+  position: fixed;
+  height: 100%;
+  opacity: 0%;
+  z-index: 999;
+  right: -260px;
+  filter: drop-shadow(-16px -16px 16px #0005) ;
+  transition-property: right, opacity;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.visual-refresh [class^="container_"] [class^="membersWrap_"]:hover {
+  right: 0px;
+  opacity: 100%;
 }
 
 /* squared server/avatars from: Comfy by Nyria */
