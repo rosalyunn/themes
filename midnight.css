@@ -187,11 +187,11 @@
 /* Custom Emoji Button */
 .sprite__04eed.spriteColored__04eed {
     background-image: url(https://cdn.discordapp.com/emojis/1024751291504791654.gif?size=128&quality=lossless);
-    background-size: 24px;
+    background-size: 18px;
 }
 .sprite__04eed.spriteGreyscale__04eed {
     mask-image: url(https://cdn.discordapp.com/emojis/1024751291504791654.png?size=128&quality=lossless);
-    mask-size: 24px;
+    mask-size: 18px;
 }
 .layerContainer_da8173:has(.openedItemTextOpened__2afcd) {
   display: none;
