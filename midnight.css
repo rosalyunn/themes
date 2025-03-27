@@ -23,6 +23,11 @@
     border-width: 2px;
 }
 
+/* left sidebar shrink */
+.sidebarList_c48ade {
+    width: 280px!important;
+}
+
 /* new message channel badge color */
 .newChannel__599fa, .textBadge_f05120, .base__5ed84, .eyebrow_c15ff6, .baseShapeRound__2b1f5{
   background-color: var(--accent-1)!important;
