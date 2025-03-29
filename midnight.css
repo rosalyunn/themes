@@ -60,10 +60,9 @@
     font-family: "TwemojiColor";
     src: url("https://vendicated.github.io/random-files/Twemoji.Mozilla.ttf");
 }
-:root {
+body {
     --font-primary: var(--font), sans-serif, "TwemojiColor";
 }
-
 /* user panel area hover animation */
 .avatarWrapper__37e49{
     transform: scale(1);
