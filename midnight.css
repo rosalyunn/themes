@@ -247,7 +247,7 @@ body {
 .scrollerInner__36d07>.groupStart__5126c:not(.backgroundFlash__5126c)>.wrapper_c19a55 {padding: 0 0 0 16px}
 .scrollerInner__36d07>.groupStart__5126c:not(.backgroundFlash__5126c)>.wrapper_c19a55.compact_c19a55 {padding: 0 0 0 108px}
 .scrollerInner__36d07>.groupStart__5126c:not(.backgroundFlash__5126c) {margin: 0}
-.scrollerInner__36d07>.groupStart__5126c.expanded__7a70a:not(.backgroundFlash__5126c) {background-color: var(--info-danger-background)}
+.scrollerInner__36d07>.groupStart__5126c.expanded__7a70a:not(.backgroundFlash__5126c) {background-color: var(--message-hover)}
 .scrollerInner__36d07>.groupStart__5126c:not(.backgroundFlash__5126c) .messageListItem__5126c .groupStart__5126c,
 .scrollerInner__36d07>.groupStart__5126c:not(.backgroundFlash__5126c, .expanded__7a70a)+.messageListItem__5126c .groupStart__5126c {margin-top: 0}
 .scrollerInner__36d07>.groupStart__5126c:not(.backgroundFlash__5126c) .messageListItem__5126c {opacity: .5}
