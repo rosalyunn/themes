@@ -316,8 +316,8 @@ body {
     height: 100px;
 }
 .inner_e131a9, [class*="rtcConnectionStatusWrapper__"], [class*="rtcConnectionStatus__"]{
-    height: fit-content;
-    width: fit-content;
+    height: fit-content!important;
+    width: fit-content!important;
 }
 .default__0263c{
     margin-top: 0;
