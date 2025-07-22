@@ -306,13 +306,18 @@ body {
     height: 25px;
     padding: 0;
 }
+.ellipsis_b88801, .dots__5ad89, .themed__5ad89{
+    width: fit-content;
+    height: 7.1px!important;
+}
 
 /* user panel band-aid */
 .container_e131a9{
     height: 100px;
 }
 .inner_e131a9, [class*="rtcConnectionStatusWrapper__"], [class*="rtcConnectionStatus__"]{
-    height: 64px!important;
+    height: fit-content;
+    width: fit-content;
 }
 .default__0263c{
     margin-top: 0;
