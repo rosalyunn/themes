@@ -301,15 +301,6 @@ body {
     padding-right: 8px!important;
 }
 
-/* message bar band-aid*/
-[class*="channelBottomBarArea_"]{
-    height: 50px;
-}
-.align-chat-input [class*="attachButton__"] {
-    height: 25px;
-    padding: 0;
-}
-
 /* user panel band-aid */
 .container_e131a9{
     height: 100px;
