@@ -301,6 +301,32 @@ body {
     padding-right: 8px!important;
 }
 
+/* message bar band-aid*/
+[class*="channelBottomBarArea_"]{
+    height: 50px;
+}
+.align-chat-input [class*="attachButton__"] {
+    height: 25px;
+    padding: 0;
+}
+
+/* user panel band-aid */
+.container_e131a9{
+    height: 100px;
+}
+.inner_e131a9, [class*="rtcConnectionStatusWrapper__"], [class*="rtcConnectionStatus__"]{
+    height: 64px!important;
+}
+.default__0263c{
+    margin-top: 0;
+}
+.title_b6c092 {
+    font-size: 14px;
+}
+[class*="panelSubtextContainer__"] [class*="subtext__"] [class*="hoverRoll__"] [class*="hovered__"]{
+    display: none;
+}
+
 /* fix user panel from status text being too long */
 .textXs_c9d15c{
     max-width: 4.4rem;
