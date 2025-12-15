@@ -4,10 +4,10 @@
 /* remove nitro/monetization from many places */
 .link__972a0[href="/store"],
 .button__201d5[aria-label="Send a gift"],
-.premiumTab__581ea, .item_b3f026[aria-label="Subscriptions"],
-.item_b3f026[aria-label="Billing"],
-.item_b3f026[data-tab-id="Nitro Server Boost"],
-.item_b3f026[aria-label="Merch"],
+.premiumTab__581ea, .item_aa8da2[aria-label="Subscriptions"],
+.item_aa8da2[aria-label="Billing"],
+.item_aa8da2[data-tab-id="Nitro Server Boost"],
+.item_aa8da2[aria-label="Merch"],
 .item_c1e9c4[id="guild-header-popout-premium-subscribe"],
 .anchor_edefb8[href="https://discord.com/settings/premium"],
 .link__972a0[href="/shop"],
@@ -24,7 +24,7 @@
 }
 
 /* left sidebar shrink */
-.sidebarList_c48ade {
+.sidebarList__5e434 {
     width: 265px!important;
 }
 
@@ -400,14 +400,14 @@ body {
 }
 
 /* revert user panel position 683171006717755446 */
-.visual-refresh section.panels_c48ade {
+.visual-refresh section.panels__5e434 {
   margin-left: 77px;
   width: calc(100% - var(--space-xs)*2 - 61px) !important;
   .actionButtons_e131a9 button {
     padding: 0;
   }
 }
-nav.guilds_c48ade {
+nav.guilds__5e434 {
   margin-bottom: 0 !important;
 }
 
