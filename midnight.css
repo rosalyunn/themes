@@ -152,6 +152,15 @@ body {
     display: none;
 }
 
+/* Custom Emoji Button */
+.sprite__04eed.spriteColored__04eed {
+    background-image: url(https://cdn.discordapp.com/emojis/1024751291504791654.gif?size=128&quality=lossless);
+    background-size: 18px;
+}
+.sprite__04eed.spriteGreyscale__04eed {
+    mask-image: url(https://cdn.discordapp.com/emojis/1024751291504791654.png?size=128&quality=lossless);
+    mask-size: 18px;
+}
 
 /* authorized app collapse */
 .authedApp__50a54{
@@ -344,10 +353,10 @@ body {
 :root{
 --home-icon-url: url('https://i.imgur.com/TrlByk8.gif');
 }
-.childWrapper__6e9f8 > svg:not(.a){
+.childWrapper__6e9f8 > svg{
   display: none;
 }
-.childWrapper__6e9f8:has(svg:not(.a))::before {
+.childWrapper__6e9f8::before {
     content: '';
     display: block;
     position: absolute;
@@ -358,15 +367,6 @@ body {
     mask: var(--home-icon-url) center/contain no-repeat !important;
     transform: none;
 }
-
-
-/** 
-  Match Status Bubble Color with Profile Button Color for Custom Profiles 
-.custom-profile-theme [class^=statusBubble_],
-.custom-profile-theme [class^=statusBubbleOuter_]:before,
-.custom-profile-theme [class^=statusBubbleOuter_]:after {
-  background-color: var(--profile-gradient-button-color);
-} */
 
 /* user panel edit 490961337896402944 */
 .panels__5e434 .avatarWrapper__37e49 {
@@ -1175,10 +1175,12 @@ opacity: var(--transparency);
 :root .userPopoutOuter_c69a7b .userPopoutOverlayBackground_c69a7b .role_dfa8b6 .roleRemoveButton_dfa8b6 .roleRemoveIcon__48c1c {
   display: none;
 }
-
 :root .divider_ae36e5, .divider_d2b491{
 	display: none;
 }
+
+
+
 
 
 
