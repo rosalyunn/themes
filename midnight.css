@@ -453,7 +453,7 @@ body {
 }
 
 /* folder radius in folder 586962558435590154 */
-.folderIconWrapper__48112 > .folderPreviewGuildIcon__48112,
+.folderPreviewWrapper__48112 > .folderPreviewGuildIcon__48112,
 .iconSizeMini_f34534 {
     border-radius: 35% !important;
 }
@@ -689,7 +689,7 @@ opacity: var(--transparency);
 .layer__59d0d .outer_c0bea0 .tags__63ed3 .guildTagContainer__63ed3 {
   order: -1;
 }
-.wrapper_da5890{
+.wrapper__0c74f{
   gap: 2px;
 }
 .bannerButton_fb7f94{
@@ -728,7 +728,7 @@ opacity: var(--transparency);
 .searchResultGroup_a7e67f:last-child {
   margin-bottom: 0;
 }
-.container__3f123 {
+.container__6c21f {
   background: var(--bg-3);
   border-radius: var(--radius-sm);
   margin-inline: var(--space-xs);
@@ -1178,7 +1178,6 @@ opacity: var(--transparency);
 :root .divider_ae36e5, .divider_d2b491{
 	display: none;
 }
-
 
 
 
