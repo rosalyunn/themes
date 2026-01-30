@@ -728,7 +728,7 @@ opacity: var(--transparency);
 .searchResultGroup_a7e67f:last-child {
   margin-bottom: 0;
 }
-.container__6c21f {
+.container_d4630c {
   background: var(--bg-3);
   border-radius: var(--radius-sm);
   margin-inline: var(--space-xs);
@@ -1178,7 +1178,6 @@ opacity: var(--transparency);
 :root .divider_ae36e5, .divider_d2b491{
 	display: none;
 }
-
 
 
 
