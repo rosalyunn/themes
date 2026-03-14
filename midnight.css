@@ -440,14 +440,21 @@ body {
 
 /* size inbox button */
 #app-mount .trailing_c38106 > div:not(.winButtons_c38106) {
-    width: 14px!important;
-    height: 14px!important;
-    padding: 4px;
-    margin: 0px;
+  width: 14px!important;
+  height: 14px!important;
+  padding: 4px;
+  margin: 0px;
 }
 /* vencord toolbox button */
 .vc-toolbox-btn > svg{
   padding: 0;
+}
+/* devtools button */
+#app-mount .clickable__81391[aria-label="DevTools"]{
+  height: 14px!important;
+  width: 14px!important;
+  padding: 4px;
+  margin: 0px;
 }
 
 /* window controls */
