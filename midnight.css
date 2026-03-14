@@ -438,17 +438,16 @@ body {
     border-radius: 8px!important;
 }
 
-/* size inbox button appropriately */
-.clickable_c99c29[aria-label="Inbox"] > svg{
-    width: 14px;
-    height: 14px;
+/* size inbox button */
+#app-mount .trailing_c38106 > div:not(.winButtons_c38106) {
+    width: 14px!important;
+    height: 14px!important;
+    padding: 4px;
+    margin: 0px;
 }
-/* size vencord toolbox button to match */
-.vc-toolbox-btn{
-  width: 14px;
-  height: 14px;
-  margin: 2px;
-  padding: 4px;
+/* vencord toolbox button */
+.vc-toolbox-btn > svg{
+  padding: 0;
 }
 
 /* window controls */
@@ -735,7 +734,7 @@ opacity: var(--transparency);
 .searchResultGroup_a7e67f:last-child {
   margin-bottom: 0;
 }
-.container_a244c3 {
+.container__23ba6 {
   background: var(--bg-3);
   border-radius: var(--radius-sm);
   margin-inline: var(--space-xs);
