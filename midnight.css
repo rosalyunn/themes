@@ -579,7 +579,7 @@ opacity: var(--transparency);
 
 /* https://rinlovesyou.github.io/Couve/snippets/couve-profile-popout.css */
 :root {
-  --badges-background: #00000000;
+  --badges-background: #00000070;
 }
 
 .layer__59d0d .outer_c0bea0 .header__5be3e {
@@ -644,11 +644,11 @@ opacity: var(--transparency);
   top: 15px !important;
   left: calc(50% - 40px) !important;
 }
-.layer__59d0d .outer_c0bea0 .avatar__75742 .avatarPopover__2d0ab {
+.layer__59d0d .outer_c0bea0 .avatar__75742 .wrapper__44b0c {
   top: 0;
   left: 0;
 }
-.layer__59d0d .outer_c0bea0 .avatar__75742 .avatarPopover__2d0ab foreignObject {
+.layer__59d0d .outer_c0bea0 .avatar__75742 .wrapper__44b0c foreignObject {
   mask: none !important;
 }
 .layer__59d0d .outer_c0bea0 .mask__44b0c circle,
@@ -659,7 +659,7 @@ opacity: var(--transparency);
 .layer__59d0d .outer_c0bea0 .body_ce8328 {
   position: static;
 }
-.layer__59d0d .outer_c0bea0 .container__63ed3 {
+.layer__59d0d .outer_c0bea0 .body__5be3e > div:nth-child(1){
   position: absolute;
   top: 105px;
   left: 0;
@@ -668,46 +668,74 @@ opacity: var(--transparency);
   text-align: center;
   justify-content: center;
   justify-items: center;
+
 }
-.layer__59d0d .outer_c0bea0 .usernameRow__63ed3 .clickableUsername__63ed3 {
+.clickable__26b1f .defaultColor__4bd52{
+  color: var(--text-strong)!important;
+}
+.layer__59d0d .outer_c0bea0 .displayNameRow__26b1f .clickable__26b1f {
   width: 100%;
+  padding: 2px;
+  border-radius: 8px;
 }
-.layer__59d0d .outer_c0bea0 .usernameRow__63ed3 .clickableUsername__63ed3 h1 {
+.layer__59d0d .outer_c0bea0 .displayNameRow__26b1f .clickable__26b1f h1 {
   display: block;
   text-align: center;
 }
-.layer__59d0d .outer_c0bea0 .usernameRow__63ed3 .nicknameIcons__63ed3 {
+.layer__59d0d .outer_c0bea0 .displayNameRow__26b1f .displayNameTrailing__26b1f {
   display: none;
 }
-.layer__59d0d .outer_c0bea0 .usernameRow__63ed3 {
+.layer__59d0d .outer_c0bea0 .displayNameRow__26b1f {
   gap: 0;
   flex-direction: column;
 }
-.layer__59d0d .outer_c0bea0 .tags__63ed3 {
-  margin-top: 2.5px;
+.layer__59d0d .outer_c0bea0 .usernameAndPronounsRow__26b1f {
   justify-content: center;
   flex-direction: row;
+  border-radius: 28px;
 }
-.layer__59d0d .outer_c0bea0 .tags__63ed3 .dotSpacer__63ed3 {
+.layer__59d0d .outer_c0bea0 .body__5be3e > div:nth-child(1) .dotSpacer__26b1f {
   order: -2;
+  background: var(--text-strong);
 }
-.layer__59d0d .outer_c0bea0 .tags__63ed3 .clickableUsername__63ed3 {
+.layer__59d0d .outer_c0bea0 .clickable__26b1f {
   order: -3;
-}
-.layer__59d0d .outer_c0bea0 .tags__63ed3 .container__8061a {
-  border: none;
-  background: var(--badges-background);
+  padding: 2px;
   border-radius: 8px;
 }
-.layer__59d0d .outer_c0bea0 .tags__63ed3 .guildTagContainer__63ed3 {
-  order: -1;
+.layer__59d0d .outer_c0bea0 .container__8061a {
+  background-color: var(--badges-background);
+  border-radius: 8px;
+  justify-content: center;
 }
-.wrapper__0c74f{
+.layer__59d0d .outer_c0bea0 .guildTagContainer__26b1f {
+  order: -1;
+  border: none;
+  padding: 1px;
+}
+.layer__59d0d .outer_c0bea0 .guildTagContainer__26b1f .badge__10651{
+  transform: scaleY(0.95); /* why do i need to do this? */
+}
+.layer__59d0d .outer_c0bea0 .guildTagContainer__26b1f .tagText__10651{
+  color: var(--text-strong)!important;
+}
+.layer__59d0d .outer_c0bea0 .pronouns__26b1f {
+  padding: 2px;
+  border-radius: 8px;
+}
+.wrapper_da5890{
   gap: 2px;
+  flex-direction: column;
 }
 .bannerButton_fb7f94{
   height: 25px;
   width: 25px;
+  opacity: 40%;
+}
+.bannerButton_fb7f94:hover{
+  height: 25px;
+  width: 25px;
+  opacity: 100%;
 }
 .bannerButton_fb7f94 > svg{
   height: 15px;
