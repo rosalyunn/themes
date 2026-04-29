@@ -723,7 +723,7 @@ opacity: var(--transparency);
   padding: 2px;
   border-radius: 8px;
 }
-.wrapper_da5890{
+.wrapper__0c74f{
   gap: 2px;
   flex-direction: column;
 }
@@ -769,7 +769,7 @@ opacity: var(--transparency);
 .searchResultGroup_a7e67f:last-child {
   margin-bottom: 0;
 }
-.container_a244c3 {
+.container__23ba6 {
   background: var(--bg-3);
   border-radius: var(--radius-sm);
   margin-inline: var(--space-xs);
