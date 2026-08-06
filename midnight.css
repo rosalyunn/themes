@@ -590,15 +590,13 @@ opacity: var(--transparency);
   min-height: unset !important;
   contain: unset;
 }
-.layer__59d0d .outer_c0bea0 .header__5be3e > .mask__68edb .banner__68edb {
+.outer_c0bea0 > .inner_c0bea0 > .header__5be3e .banner__68edb{
   position: absolute;
   height: 200px !important;
+  border-radius: 12px;
   -webkit-mask-image: linear-gradient(rgba(0, 0, 0, 0.7607843137), rgba(0, 0, 0, 0.7607843137));
   mask-image: linear-gradient(rgba(0, 0, 0, 0.7607843137), rgba(0, 0, 0, 0.7607843137));
   clip-path: polygon(100% 0%, 0% 0% , 0.00% 98.38%, 3.33% 97.67%, 6.67% 96.85%, 10.00% 96.02%, 13.33% 95.25%, 16.67% 94.62%, 20.00% 94.19%, 23.33% 94.01%, 26.67% 94.08%, 30.00% 94.41%, 33.33% 94.95%, 36.67% 95.67%, 40.00% 96.48%, 43.33% 97.31%, 46.67% 98.08%, 50.00% 98.71%, 53.33% 99.14%, 56.67% 99.33%, 60.00% 99.25%, 63.33% 98.93%, 66.67% 98.38%, 70.00% 97.67%, 73.33% 96.85%, 76.67% 96.02%, 80.00% 95.25%, 83.33% 94.62%, 86.67% 94.19%, 90.00% 94.01%, 93.33% 94.08%, 96.67% 94.41%, 100.00% 94.95%);
-}
-.layer__59d0d .outer_c0bea0 .header__5be3e > .mask__68edb > foreignObject {
-  mask: none;
 }
 .layer__59d0d .outer_c0bea0 .wrapper__4106a {
   flex-direction: column;
