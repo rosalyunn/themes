@@ -470,7 +470,7 @@ body {
   width: 65.5px; /* i dont know, it works:tm: */
 }
 .stack_dbd263:has(> .tutorialContainer__1f388), .scroller_ef3116{
-  width: 50px!important;
+  width: 64px!important;
 }
 .stack_dbd263{
   scrollbar-width: none!important;
